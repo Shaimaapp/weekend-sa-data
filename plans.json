@@ -1,0 +1,409 @@
+{
+  "version": 1,
+  "cities": [
+    {
+      "id": "riyadh",
+      "name": "الرياض",
+      "plans": [
+        {
+          "id": "riyadh_weekend_friends_cozy",
+          "title": "ويكند بنات هادي بالرياض",
+          "type": "weekend",
+          "dayPattern": "thu-sat",
+          "audience": ["friends", "women"],
+          "budget": "medium",
+          "durationHours": 7,
+          "tags": ["كوفي", "مشاة", "عشاء"],
+          "steps": [
+            {
+              "time": "17:00 - 18:30",
+              "title": "قهوة وبداية سواليف",
+              "placeName": "كوفي هادي بجلسات داخلية",
+              "description": "مكان هادي للسواليف الطويلة وبداية اللمة.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "18:30 - 20:00",
+              "title": "مشية خفيفة وتغيير جو",
+              "placeName": "ممشى أو حديقة قريبة",
+              "description": "مشية خفيفة مع تصوير وضحك خفيف.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "20:00 - 22:00",
+              "title": "عشاء بجو بناتي",
+              "placeName": "مطعم بجلسات مريحة",
+              "description": "عشاء خفيف واختتام لليوم بطريقة رايقة.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": "https://example.com/booking/riyadh-restaurant"
+            }
+          ]
+        },
+        {
+          "id": "riyadh_weekend_family_mall_fun",
+          "title": "ويكند عائلي في مول وألعاب",
+          "type": "weekend",
+          "dayPattern": "fri-sat",
+          "audience": ["family"],
+          "budget": "medium",
+          "durationHours": 6,
+          "tags": ["أطفال", "تسوق", "ألعاب"],
+          "steps": [
+            {
+              "time": "16:00 - 18:00",
+              "title": "تسوق خفيف ولعب للأطفال",
+              "placeName": "مجمع تجاري فيه منطقة ألعاب",
+              "description": "الأطفال يلعبون والكبار يتسوّقون ويشربون قهوة.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "18:00 - 20:00",
+              "title": "عشاء عائلي",
+              "placeName": "مطعم مناسب للأطفال",
+              "description": "مطعم فيه خيارات تناسب الصغار والكبار.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": "https://example.com/booking/riyadh-family-dinner"
+            }
+          ]
+        },
+        {
+          "id": "riyadh_weekday_solo_light",
+          "title": "طلعة خفيفة بعد الدوام",
+          "type": "weekday",
+          "dayPattern": "sun-wed",
+          "audience": ["solo"],
+          "budget": "low",
+          "durationHours": 3,
+          "tags": ["كوفي", "مشاة"],
+          "steps": [
+            {
+              "time": "18:00 - 19:00",
+              "title": "قهوة سريعة",
+              "placeName": "كوفي قريب من العمل أو البيت",
+              "description": "وقت بسيط لتصفية الذهن بعد يوم طويل.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "19:00 - 21:00",
+              "title": "مشية مع بودكاست",
+              "placeName": "ممشى أو حديقة الحي",
+              "description": "سماعة + بودكاست تحبينه ومشية هادية.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jeddah",
+      "name": "جدة",
+      "plans": [
+        {
+          "id": "jeddah_weekend_corniche_family",
+          "title": "ويكند عائلي على كورنيش جدة",
+          "type": "weekend",
+          "dayPattern": "thu-sat",
+          "audience": ["family"],
+          "budget": "medium",
+          "durationHours": 6,
+          "tags": ["بحر", "كورنيش", "أطفال"],
+          "steps": [
+            {
+              "time": "16:00 - 18:00",
+              "title": "جلسة على البحر ولعب للأطفال",
+              "placeName": "كورنيش جدة",
+              "description": "جلسة على البحر، أطفال يركضون وتصوير للغروب.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "18:00 - 20:00",
+              "title": "عشاء مطل على البحر",
+              "placeName": "مطعم عائلي",
+              "description": "عشاء بجلسات عائلية وإطلالة على البحر إن أمكن.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": "https://example.com/booking/jeddah-sea-dinner"
+            }
+          ]
+        },
+        {
+          "id": "jeddah_weekday_friends_coffee",
+          "title": "قهوة وسواليف منتصف الأسبوع",
+          "type": "weekday",
+          "dayPattern": "sun-wed",
+          "audience": ["friends"],
+          "budget": "low",
+          "durationHours": 3,
+          "tags": ["كوفي"],
+          "steps": [
+            {
+              "time": "19:00 - 22:00",
+              "title": "كوفي بجلسات داخلية",
+              "placeName": "كوفي بنات/شباب هادي",
+              "description": "جلسة سواليف لمدة ٣ ساعات بمكان مريح.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dammam_khobar",
+      "name": "الدمام / الخبر",
+      "plans": [
+        {
+          "id": "dammam_weekend_corniche",
+          "title": "ويكند عائلي على الكورنيش",
+          "type": "weekend",
+          "dayPattern": "fri-sat",
+          "audience": ["family"],
+          "budget": "low",
+          "durationHours": 5,
+          "tags": ["كورنيش", "أطفال"],
+          "steps": [
+            {
+              "time": "16:00 - 18:00",
+              "title": "تمشية على الكورنيش",
+              "placeName": "كورنيش الدمام أو الخبر",
+              "description": "هواء بحر وجلسة بسيطة على الكورنيش.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "18:00 - 21:00",
+              "title": "سناكات وعشاء بسيط",
+              "placeName": "أكشاك أو مطعم قريب",
+              "description": "عشاء خفيف أو سناكات مع العائلة.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        },
+        {
+          "id": "dammam_weekday_light",
+          "title": "طلعة منتصف الأسبوع هادية",
+          "type": "weekday",
+          "dayPattern": "sun-wed",
+          "audience": ["friends", "solo"],
+          "budget": "low",
+          "durationHours": 3,
+          "tags": ["كوفي", "كورنيش"],
+          "steps": [
+            {
+              "time": "18:00 - 19:00",
+              "title": "قهوة قريبة",
+              "placeName": "كوفي على البحر أو قريب من الكورنيش",
+              "description": "قهوة خفيفة قبل المشي.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "19:00 - 21:00",
+              "title": "مشية على الكورنيش",
+              "placeName": "الكورنيش",
+              "description": "مشية مع موسيقى أو سواليف.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "makkah",
+      "name": "مكة المكرمة",
+      "plans": [
+        {
+          "id": "makkah_weekend_spiritual",
+          "title": "ويكند روحاني خفيف",
+          "type": "weekend",
+          "dayPattern": "thu-sat",
+          "audience": ["family", "solo"],
+          "budget": "low",
+          "durationHours": 6,
+          "tags": ["روحاني", "هدوء"],
+          "steps": [
+            {
+              "time": "16:00 - 18:00",
+              "title": "زيارة المسجد الحرام",
+              "placeName": "الحرم",
+              "description": "عمرة أو صلاة ووقت روحاني.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "18:00 - 20:00",
+              "title": "عشاء هادي قريب",
+              "placeName": "مطعم عائلي",
+              "description": "وجبة بسيطة بعد اليوم الروحاني.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        },
+        {
+          "id": "makkah_weekday_short_visit",
+          "title": "زيارة سريعة بعد العصر",
+          "type": "weekday",
+          "dayPattern": "sun-wed",
+          "audience": ["solo"],
+          "budget": "low",
+          "durationHours": 3,
+          "tags": ["روحاني"],
+          "steps": [
+            {
+              "time": "17:00 - 20:00",
+              "title": "صلاة وقراءة",
+              "placeName": "المسجد الحرام",
+              "description": "وقت قصير للعبادة وسط الأسبوع.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "madinah",
+      "name": "المدينة المنورة",
+      "plans": [
+        {
+          "id": "madinah_weekend_masjid_nabawi",
+          "title": "ويكند هادي حول المسجد النبوي",
+          "type": "weekend",
+          "dayPattern": "thu-sat",
+          "audience": ["family", "solo"],
+          "budget": "medium",
+          "durationHours": 6,
+          "tags": ["روحاني", "مشي"],
+          "steps": [
+            {
+              "time": "16:00 - 18:00",
+              "title": "صلاة وزيارة في المسجد النبوي",
+              "placeName": "المسجد النبوي",
+              "description": "وقت للراحة الروحية والدعاء.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "18:00 - 20:00",
+              "title": "عشاء في مطعم قريب",
+              "placeName": "مطعم عائلي",
+              "description": "عشاء بسيط وجلسة عائلية.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abha",
+      "name": "أبها",
+      "plans": [
+        {
+          "id": "abha_weekend_nature",
+          "title": "ويكند مع الطبيعة والضباب",
+          "type": "weekend",
+          "dayPattern": "thu-sat",
+          "audience": ["family", "friends"],
+          "budget": "medium",
+          "durationHours": 7,
+          "tags": ["طبيعة", "إطلالة"],
+          "steps": [
+            {
+              "time": "15:00 - 17:00",
+              "title": "جلسة في مكان مطل",
+              "placeName": "إطلالة على الجبال",
+              "description": "جلسة مع الضباب وتصوير للمناظر.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "17:00 - 19:00",
+              "title": "قهوة وعشاء بسيط",
+              "placeName": "كوفي أو مطعم مطل",
+              "description": "قهوة دافية في الجو البارد وعشاء بسيط.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taif",
+      "name": "الطائف",
+      "plans": [
+        {
+          "id": "taif_weekend_rose",
+          "title": "ويكند في أجواء الطائف",
+          "type": "weekend",
+          "dayPattern": "thu-sat",
+          "audience": ["family", "friends"],
+          "budget": "medium",
+          "durationHours": 6,
+          "tags": ["طبيعة", "هواء بارد"],
+          "steps": [
+            {
+              "time": "16:00 - 18:00",
+              "title": "جلسة في منتزه أو حديقة",
+              "placeName": "منتزه أو حديقة عامة",
+              "description": "جلسة مع الأهل أو الأصحاب والجو البارد.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            },
+            {
+              "time": "18:00 - 20:00",
+              "title": "عشاء في مطعم محلي",
+              "placeName": "مطعم شعبي أو عائلي",
+              "description": "تجربة أكل محلي أو عشاء عائلي بسيط.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alula",
+      "name": "العلا",
+      "plans": [
+        {
+          "id": "alula_weekend_explore",
+          "title": "استكشاف العلا في يوم واحد",
+          "type": "weekend",
+          "dayPattern": "thu-sat",
+          "audience": ["friends", "family"],
+          "budget": "high",
+          "durationHours": 8,
+          "tags": ["سياحة", "استكشاف"],
+          "steps": [
+            {
+              "time": "10:00 - 14:00",
+              "title": "جولة في المعالم السياحية",
+              "placeName": "المناطق التاريخية أو التجارب السياحية",
+              "description": "استكشاف أبرز المعالم مع جولة محجوزة مسبقًا.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": "https://example.com/booking/alula-tour"
+            },
+            {
+              "time": "16:00 - 18:00",
+              "title": "جلسة غروب",
+              "placeName": "مكان مطل",
+              "description": "جلسة هادئة لمشاهدة الغروب والتصوير.",
+              "mapUrl": "https://maps.google.com",
+              "bookingUrl": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
