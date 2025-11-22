@@ -1,99 +1,103 @@
 {
-  "version": 1,
+  "version": 2,
+  "updatedAt": "2025-11-21",
   "cities": [
     {
       "id": "riyadh",
       "name": "الرياض",
+      "nameEn": "Riyadh",
       "plans": [
         {
-          "id": "riyadh_weekend_friends_cozy",
-          "title": "ويكند بنات هادي بالرياض",
+          "id": "riyadh_modern_season_desert",
+          "titleAr": "ويكند الرياض العصري + موسم + مخيم صحراوي",
+          "titleEn": "Modern Riyadh Weekend with Season & Desert Camp",
           "type": "weekend",
-          "dayPattern": "thu-sat",
-          "audience": ["friends", "women"],
+          "dayPattern": "thu-fri",
+          "audience": ["friends", "family", "tourists"],
           "budget": "medium",
-          "durationHours": 7,
-          "tags": ["كوفي", "مشاة", "عشاء"],
+          "durationHours": 30,
+          "tags": ["Riyadh Season", "Boulevard", "Desert", "Food"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/riyadh/skyline.jpg",
           "steps": [
             {
-              "time": "17:00 - 18:30",
-              "title": "قهوة وبداية سواليف",
-              "placeName": "كوفي هادي بجلسات داخلية",
-              "description": "مكان هادي للسواليف الطويلة وبداية اللمة.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "10:00",
+              "titleAr": "إفطار وجولة خفيفة في حي العليا",
+              "titleEn": "Breakfast & Short Walk in Olaya",
+              "placeName": "حي العليا – الرياض",
+              "descriptionAr": "ابدأ اليوم بإفطار في كوفي مختص في حي العليا مع إطلالة على برج المملكة أو برج الفيصلية ثم جولة مشي خفيفة في المنطقة.",
+              "descriptionEn": "Start the day with breakfast at a specialty café in Olaya with a view of Kingdom or Faisaliah Tower, then enjoy a short walk in the area.",
+              "mapUrl": "https://maps.google.com/?q=Olaya+Riyadh",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/riyadh/olaya-cafe.jpg"
             },
             {
-              "time": "18:30 - 20:00",
-              "title": "مشية خفيفة وتغيير جو",
-              "placeName": "ممشى أو حديقة قريبة",
-              "description": "مشية خفيفة مع تصوير وضحك خفيف.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "15:30",
+              "titleAr": "زيارة بوليفارد رياض سيتي",
+              "titleEn": "Visit Boulevard Riyadh City",
+              "placeName": "Boulevard Riyadh City",
+              "descriptionAr": "توجه إلى بوليفارد رياض سيتي للاستمتاع بالمطاعم والكوفيهات والفعاليات والنافورة التفاعلية، مع إمكانية حضور فعالية حسب جدول موسم الرياض.",
+              "descriptionEn": "Head to Boulevard Riyadh City to enjoy restaurants, cafés, shows and the dancing fountain, and optionally attend a Riyadh Season event.",
+              "mapUrl": "https://maps.google.com/?q=Boulevard+Riyadh+City",
+              "bookingUrl": "https://webook.com/en/riyadh-season",
+              "imageUrl": "https://your-cdn.com/weekend-sa/riyadh/boulevard.jpg"
             },
             {
-              "time": "20:00 - 22:00",
-              "title": "عشاء بجو بناتي",
-              "placeName": "مطعم بجلسات مريحة",
-              "description": "عشاء خفيف واختتام لليوم بطريقة رايقة.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": "https://example.com/booking/riyadh-restaurant"
+              "time": "21:00",
+              "titleAr": "عشاء في مطعم روف توب بإطلالة على سكايلاين الرياض",
+              "titleEn": "Rooftop Dinner with Riyadh Skyline View",
+              "placeName": "مطعم روف توب – العليا/الرياض",
+              "descriptionAr": "اختَر مطعم روف توب في العليا أو طريق الملك فهد لإغلاق اليوم بإطلالة على سكايلاين الرياض وأجواء هادئة.",
+              "descriptionEn": "Choose a rooftop restaurant in Olaya or King Fahd Road to end the day with a relaxed skyline view.",
+              "mapUrl": "https://maps.google.com/?q=Rooftop+restaurant+Riyadh",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/riyadh/rooftop-dinner.jpg"
+            },
+            {
+              "time": "اليوم الثاني 16:00",
+              "titleAr": "تجربة مخيم صحراوي بالقرب من الرياض",
+              "titleEn": "Desert Camp Experience near Riyadh",
+              "placeName": "صحراء الثمامة أو المناطق المحيطة",
+              "descriptionAr": "حجز تجربة مخيم صحراوي تتضمن تطعيس، ركوب جمل، ساندبورد، وجلسة بدوية مع عشاء تحت النجوم وقهوة سعودية.",
+              "descriptionEn": "Book a desert camp experience including dune bashing, camel riding, sandboarding, a Bedouin-style dinner under the stars and Saudi coffee.",
+              "mapUrl": "https://maps.google.com/?q=Thumamah+Desert+Riyadh",
+              "bookingUrl": "https://webook.com/en/experiences/desert-camp-experience-in-riyadh",
+              "imageUrl": "https://your-cdn.com/weekend-sa/riyadh/desert-camp.jpg"
             }
           ]
         },
         {
-          "id": "riyadh_weekend_family_mall_fun",
-          "title": "ويكند عائلي في مول وألعاب",
-          "type": "weekend",
-          "dayPattern": "fri-sat",
-          "audience": ["family"],
-          "budget": "medium",
-          "durationHours": 6,
-          "tags": ["أطفال", "تسوق", "ألعاب"],
-          "steps": [
-            {
-              "time": "16:00 - 18:00",
-              "title": "تسوق خفيف ولعب للأطفال",
-              "placeName": "مجمع تجاري فيه منطقة ألعاب",
-              "description": "الأطفال يلعبون والكبار يتسوّقون ويشربون قهوة.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            },
-            {
-              "time": "18:00 - 20:00",
-              "title": "عشاء عائلي",
-              "placeName": "مطعم مناسب للأطفال",
-              "description": "مطعم فيه خيارات تناسب الصغار والكبار.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": "https://example.com/booking/riyadh-family-dinner"
-            }
-          ]
-        },
-        {
-          "id": "riyadh_weekday_solo_light",
-          "title": "طلعة خفيفة بعد الدوام",
+          "id": "riyadh_afterwork_light",
+          "titleAr": "خطة خفيفة بعد الدوام في الرياض",
+          "titleEn": "Light After-Work Plan in Riyadh",
           "type": "weekday",
-          "dayPattern": "sun-wed",
-          "audience": ["solo"],
-          "budget": "low",
+          "dayPattern": "after-work",
+          "audience": ["friends", "solo", "couples"],
+          "budget": "medium",
           "durationHours": 3,
-          "tags": ["كوفي", "مشاة"],
+          "tags": ["Coffee", "Walk", "City"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/riyadh/afterwork.jpg",
           "steps": [
             {
-              "time": "18:00 - 19:00",
-              "title": "قهوة سريعة",
-              "placeName": "كوفي قريب من العمل أو البيت",
-              "description": "وقت بسيط لتصفية الذهن بعد يوم طويل.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "18:00",
+              "titleAr": "كوفي هادي للعمل أو القراءة",
+              "titleEn": "Calm Café for Work or Reading",
+              "placeName": "كوفي في حي الملز/العليا",
+              "descriptionAr": "بعد الدوام، توجه إلى كوفي هادي مزوّد بإنترنت جيد للعمل الخفيف أو قراءة كتاب مع قهوة.",
+              "descriptionEn": "After work, head to a calm café with good Wi-Fi to do light work or read a book over coffee.",
+              "mapUrl": "https://maps.google.com/?q=cafe+Riyadh",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/riyadh/cafe-evening.jpg"
             },
             {
-              "time": "19:00 - 21:00",
-              "title": "مشية مع بودكاست",
-              "placeName": "ممشى أو حديقة الحي",
-              "description": "سماعة + بودكاست تحبينه ومشية هادية.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "19:30",
+              "titleAr": "تمشية قصيرة في ممشى أو بوليفارد قريب",
+              "titleEn": "Short Walk in a Nearby Boulevard",
+              "placeName": "ممشى أو حديقة داخل الرياض",
+              "descriptionAr": "اختم اليوم بمشي 20–30 دقيقة في ممشى مثل ممشى طريق الأمير تركي أو حديقة قريبة لتصفية الذهن.",
+              "descriptionEn": "End the evening with a 20–30 minute walk at a local park or walking path to clear your mind.",
+              "mapUrl": "https://maps.google.com/?q=Riyadh+park+walk",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/riyadh/walk-evening.jpg"
             }
           ]
         }
@@ -102,202 +106,189 @@
     {
       "id": "jeddah",
       "name": "جدة",
+      "nameEn": "Jeddah",
       "plans": [
         {
-          "id": "jeddah_weekend_corniche_family",
-          "title": "ويكند عائلي على كورنيش جدة",
-          "type": "weekend",
-          "dayPattern": "thu-sat",
-          "audience": ["family"],
-          "budget": "medium",
-          "durationHours": 6,
-          "tags": ["بحر", "كورنيش", "أطفال"],
-          "steps": [
-            {
-              "time": "16:00 - 18:00",
-              "title": "جلسة على البحر ولعب للأطفال",
-              "placeName": "كورنيش جدة",
-              "description": "جلسة على البحر، أطفال يركضون وتصوير للغروب.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            },
-            {
-              "time": "18:00 - 20:00",
-              "title": "عشاء مطل على البحر",
-              "placeName": "مطعم عائلي",
-              "description": "عشاء بجلسات عائلية وإطلالة على البحر إن أمكن.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": "https://example.com/booking/jeddah-sea-dinner"
-            }
-          ]
-        },
-        {
-          "id": "jeddah_weekday_friends_coffee",
-          "title": "قهوة وسواليف منتصف الأسبوع",
-          "type": "weekday",
-          "dayPattern": "sun-wed",
-          "audience": ["friends"],
-          "budget": "low",
-          "durationHours": 3,
-          "tags": ["كوفي"],
-          "steps": [
-            {
-              "time": "19:00 - 22:00",
-              "title": "كوفي بجلسات داخلية",
-              "placeName": "كوفي بنات/شباب هادي",
-              "description": "جلسة سواليف لمدة ٣ ساعات بمكان مريح.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "dammam_khobar",
-      "name": "الدمام / الخبر",
-      "plans": [
-        {
-          "id": "dammam_weekend_corniche",
-          "title": "ويكند عائلي على الكورنيش",
+          "id": "jeddah_sea_historic_weekend",
+          "titleAr": "ويكند جدة على البحر والبلد التاريخية",
+          "titleEn": "Jeddah Sea & Historic Al-Balad Weekend",
           "type": "weekend",
           "dayPattern": "fri-sat",
-          "audience": ["family"],
-          "budget": "low",
-          "durationHours": 5,
-          "tags": ["كورنيش", "أطفال"],
-          "steps": [
-            {
-              "time": "16:00 - 18:00",
-              "title": "تمشية على الكورنيش",
-              "placeName": "كورنيش الدمام أو الخبر",
-              "description": "هواء بحر وجلسة بسيطة على الكورنيش.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            },
-            {
-              "time": "18:00 - 21:00",
-              "title": "سناكات وعشاء بسيط",
-              "placeName": "أكشاك أو مطعم قريب",
-              "description": "عشاء خفيف أو سناكات مع العائلة.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            }
-          ]
-        },
-        {
-          "id": "dammam_weekday_light",
-          "title": "طلعة منتصف الأسبوع هادية",
-          "type": "weekday",
-          "dayPattern": "sun-wed",
-          "audience": ["friends", "solo"],
-          "budget": "low",
-          "durationHours": 3,
-          "tags": ["كوفي", "كورنيش"],
-          "steps": [
-            {
-              "time": "18:00 - 19:00",
-              "title": "قهوة قريبة",
-              "placeName": "كوفي على البحر أو قريب من الكورنيش",
-              "description": "قهوة خفيفة قبل المشي.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            },
-            {
-              "time": "19:00 - 21:00",
-              "title": "مشية على الكورنيش",
-              "placeName": "الكورنيش",
-              "description": "مشية مع موسيقى أو سواليف.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "makkah",
-      "name": "مكة المكرمة",
-      "plans": [
-        {
-          "id": "makkah_weekend_spiritual",
-          "title": "ويكند روحاني خفيف",
-          "type": "weekend",
-          "dayPattern": "thu-sat",
-          "audience": ["family", "solo"],
-          "budget": "low",
-          "durationHours": 6,
-          "tags": ["روحاني", "هدوء"],
-          "steps": [
-            {
-              "time": "16:00 - 18:00",
-              "title": "زيارة المسجد الحرام",
-              "placeName": "الحرم",
-              "description": "عمرة أو صلاة ووقت روحاني.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            },
-            {
-              "time": "18:00 - 20:00",
-              "title": "عشاء هادي قريب",
-              "placeName": "مطعم عائلي",
-              "description": "وجبة بسيطة بعد اليوم الروحاني.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            }
-          ]
-        },
-        {
-          "id": "makkah_weekday_short_visit",
-          "title": "زيارة سريعة بعد العصر",
-          "type": "weekday",
-          "dayPattern": "sun-wed",
-          "audience": ["solo"],
-          "budget": "low",
-          "durationHours": 3,
-          "tags": ["روحاني"],
-          "steps": [
-            {
-              "time": "17:00 - 20:00",
-              "title": "صلاة وقراءة",
-              "placeName": "المسجد الحرام",
-              "description": "وقت قصير للعبادة وسط الأسبوع.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "madinah",
-      "name": "المدينة المنورة",
-      "plans": [
-        {
-          "id": "madinah_weekend_masjid_nabawi",
-          "title": "ويكند هادي حول المسجد النبوي",
-          "type": "weekend",
-          "dayPattern": "thu-sat",
-          "audience": ["family", "solo"],
+          "audience": ["friends", "family", "tourists"],
           "budget": "medium",
-          "durationHours": 6,
-          "tags": ["روحاني", "مشي"],
+          "durationHours": 14,
+          "tags": ["Sea", "Corniche", "Historic", "Boat"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/jeddah/corniche-main.jpg",
           "steps": [
             {
-              "time": "16:00 - 18:00",
-              "title": "صلاة وزيارة في المسجد النبوي",
-              "placeName": "المسجد النبوي",
-              "description": "وقت للراحة الروحية والدعاء.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "10:00",
+              "titleAr": "تمشية وإفطار على كورنيش جدة",
+              "titleEn": "Walk & Breakfast on Jeddah Corniche",
+              "placeName": "Jeddah Waterfront",
+              "descriptionAr": "ابدأ اليوم بمشي على الواجهة البحرية واستئجار دراجة/سكوتر، وإفطار خفيف في كوفي مطل على البحر.",
+              "descriptionEn": "Start your day with a walk on the waterfront, rent a bike or scooter, and enjoy a light breakfast at a seaside café.",
+              "mapUrl": "https://maps.google.com/?q=Jeddah+Waterfront",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/jeddah/waterfront-morning.jpg"
             },
             {
-              "time": "18:00 - 20:00",
-              "title": "عشاء في مطعم قريب",
-              "placeName": "مطعم عائلي",
-              "description": "عشاء بسيط وجلسة عائلية.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "17:00",
+              "titleAr": "رحلة بحرية وقت الغروب في أبحر",
+              "titleEn": "Sunset Boat Tour in Obhur",
+              "placeName": "مرسى في أبحر",
+              "descriptionAr": "حجز رحلة بحرية وقت الغروب للاستمتاع بالبحر الأحمر، بعض الشركات توفر حجز عبر منصات التذاكر.",
+              "descriptionEn": "Book a sunset boat tour in Obhur to enjoy Red Sea views; many operators offer online booking.",
+              "mapUrl": "https://maps.google.com/?q=Obhur+Jeddah+Marina",
+              "bookingUrl": "https://jeddah.platinumlist.net/en/category/water-sports",
+              "imageUrl": "https://your-cdn.com/weekend-sa/jeddah/sunset-boat.jpg"
+            },
+            {
+              "time": "20:30",
+              "titleAr": "عشاء على البحر",
+              "titleEn": "Seaside Dinner",
+              "placeName": "مطعم مطل على البحر",
+              "descriptionAr": "اختَر مطعم عائلي أو كاجوال على الواجهة البحرية لتجربة مأكولات بحرية أو عالمية.",
+              "descriptionEn": "Choose a family or casual restaurant with a sea view for seafood or international dishes.",
+              "mapUrl": "https://maps.google.com/?q=sea+view+restaurant+Jeddah",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/jeddah/seaview-dinner.jpg"
+            },
+            {
+              "time": "اليوم الثاني 17:00",
+              "titleAr": "زيارة جدة التاريخية (البلد)",
+              "titleEn": "Visit Historic Jeddah (Al-Balad)",
+              "placeName": "Historic Jeddah - Al Balad",
+              "descriptionAr": "التمشية في حارات البلد وزيارة البيوت التاريخية مثل بيت نصيف، مع وقت للتصوير وشراء الهدايا.",
+              "descriptionEn": "Walk through Al-Balad, visit historical houses like Nassif House, take photos and buy souvenirs.",
+              "mapUrl": "https://maps.google.com/?q=Historic+Jeddah+Al+Balad",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/jeddah/al-balad.jpg"
+            }
+          ]
+        },
+        {
+          "id": "jeddah_afterwork_light",
+          "titleAr": "خطة خفيفة بعد الدوام في جدة",
+          "titleEn": "Light After-Work Plan in Jeddah",
+          "type": "weekday",
+          "dayPattern": "after-work",
+          "audience": ["friends", "solo", "couples"],
+          "budget": "medium",
+          "durationHours": 3,
+          "tags": ["Corniche", "Coffee"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/jeddah/afterwork.jpg",
+          "steps": [
+            {
+              "time": "18:00",
+              "titleAr": "كوفي على الكورنيش",
+              "titleEn": "Coffee on the Corniche",
+              "placeName": "Jeddah Waterfront café",
+              "descriptionAr": "بعد الدوام، اجلس في كوفي مطل على البحر لشرب قهوة أو شاي مع منظر الغروب.",
+              "descriptionEn": "After work, sit at a café on the waterfront and enjoy coffee or tea with the sunset.",
+              "mapUrl": "https://maps.google.com/?q=Jeddah+Waterfront+cafe",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/jeddah/corniche-cafe.jpg"
+            },
+            {
+              "time": "19:30",
+              "titleAr": "تمشية قصيرة على الواجهة البحرية",
+              "titleEn": "Short Walk on the Waterfront",
+              "placeName": "Jeddah Waterfront",
+              "descriptionAr": "امشِ لمسافة 20–30 دقيقة على الواجهة البحرية لتصفية الذهن قبل الرجوع للبيت.",
+              "descriptionEn": "Take a 20–30 minute walk along the waterfront to clear your mind before heading home.",
+              "mapUrl": "https://maps.google.com/?q=Jeddah+Corniche",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/jeddah/evening-walk.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eastern",
+      "name": "الشرقية",
+      "nameEn": "Eastern Province",
+      "plans": [
+        {
+          "id": "eastern_halfmoon_adventure",
+          "titleAr": "ويكند شاطئ نصف القمر وكورنيش الخبر",
+          "titleEn": "Half Moon Bay & Al Khobar Corniche Weekend",
+          "type": "weekend",
+          "dayPattern": "fri-sat",
+          "audience": ["friends", "family"],
+          "budget": "medium",
+          "durationHours": 12,
+          "tags": ["Beach", "Half Moon", "Water Sports"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/eastern/halfmoon-main.jpg",
+          "steps": [
+            {
+              "time": "09:00",
+              "titleAr": "جلسة صباحية على شاطئ نصف القمر",
+              "titleEn": "Morning at Half Moon Bay",
+              "placeName": "Half Moon Bay Beach",
+              "descriptionAr": "وصول مبكر إلى شاطئ نصف القمر مع تجهيز جلسة عائلية أو شبابية على الرمال والسباحة لمن يرغب.",
+              "descriptionEn": "Arrive early at Half Moon Bay and set up a family or friends’ seating on the sand, with swimming for those who want.",
+              "mapUrl": "https://maps.google.com/?q=Half+Moon+Bay+Saudi+Arabia",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/eastern/halfmoon-beach.jpg"
+            },
+            {
+              "time": "13:00",
+              "titleAr": "أنشطة بحرية مع أدفنشر الخبر أو مشغل محلي",
+              "titleEn": "Water Activities with Adventure Khobar",
+              "placeName": "Adventure Khobar / Water Sports Operator",
+              "descriptionAr": "حجز جت سكي أو باراشوت بحري أو رحلة قارب عبر أدفنشر الخبر أو أحد مشغلي الأنشطة البحرية.",
+              "descriptionEn": "Book a jet ski, parasailing or boat ride through Adventure Khobar or another water sports operator.",
+              "mapUrl": "https://maps.google.com/?q=Adventure+Khobar",
+              "bookingUrl": "https://adventurekhobar.com/water-activities-in-khobar",
+              "imageUrl": "https://your-cdn.com/weekend-sa/eastern/water-activities.jpg"
+            },
+            {
+              "time": "17:30",
+              "titleAr": "تمشية وعشاء على كورنيش الخبر",
+              "titleEn": "Walk & Dinner at Al Khobar Corniche",
+              "placeName": "Al Khobar Corniche",
+              "descriptionAr": "الذهاب إلى كورنيش الخبر لتمشية مع العائلة أو الأصدقاء ثم اختيار مطعم مطل على البحر للعشاء.",
+              "descriptionEn": "Head to Al Khobar Corniche for a walk with family or friends, then choose a sea-view restaurant for dinner.",
+              "mapUrl": "https://maps.google.com/?q=Al+Khobar+Corniche",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/eastern/khobar-corniche.jpg"
+            }
+          ]
+        },
+        {
+          "id": "eastern_afterwork_light",
+          "titleAr": "خطة خفيفة بعد الدوام في الشرقية",
+          "titleEn": "Light After-Work Plan in Eastern Province",
+          "type": "weekday",
+          "dayPattern": "after-work",
+          "audience": ["friends", "solo", "couples"],
+          "budget": "low",
+          "durationHours": 2.5,
+          "tags": ["Corniche", "Relax"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/eastern/afterwork.jpg",
+          "steps": [
+            {
+              "time": "18:00",
+              "titleAr": "كوفي بسيط في الخبر أو الدمام",
+              "titleEn": "Simple Café in Khobar or Dammam",
+              "placeName": "كوفي محلي",
+              "descriptionAr": "اختر كوفي قريب من البيت أو العمل لجلسة قصيرة مع قهوة وتجهيز خطة اليوم التالي.",
+              "descriptionEn": "Choose a nearby café for a short coffee break and plan your next day.",
+              "mapUrl": "https://maps.google.com/?q=cafe+Al+Khobar",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/eastern/cafe-evening.jpg"
+            },
+            {
+              "time": "19:00",
+              "titleAr": "مشية سريعة على الكورنيش",
+              "titleEn": "Quick Walk on the Corniche",
+              "placeName": "Al Khobar Corniche / Dammam Corniche",
+              "descriptionAr": "تمشية 20–30 دقيقة على الكورنيش لتغيير الجو، ثم العودة للمنزل.",
+              "descriptionEn": "A 20–30 minute walk on the Corniche to refresh, then head home.",
+              "mapUrl": "https://maps.google.com/?q=Dammam+Corniche",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/eastern/corniche-walk.jpg"
             }
           ]
         }
@@ -306,32 +297,88 @@
     {
       "id": "abha",
       "name": "أبها",
+      "nameEn": "Abha",
       "plans": [
         {
-          "id": "abha_weekend_nature",
-          "title": "ويكند مع الطبيعة والضباب",
+          "id": "abha_mountains_rijal_almaa",
+          "titleAr": "ويكند جبال أبها ورجال ألمع",
+          "titleEn": "Abha Mountains & Rijal Almaa Weekend",
           "type": "weekend",
-          "dayPattern": "thu-sat",
-          "audience": ["family", "friends"],
+          "dayPattern": "thu-fri",
+          "audience": ["family", "friends", "tourists"],
           "budget": "medium",
-          "durationHours": 7,
-          "tags": ["طبيعة", "إطلالة"],
+          "durationHours": 28,
+          "tags": ["Mountains", "Nature", "Heritage"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/abha/mountains-main.jpg",
           "steps": [
             {
-              "time": "15:00 - 17:00",
-              "title": "جلسة في مكان مطل",
-              "placeName": "إطلالة على الجبال",
-              "description": "جلسة مع الضباب وتصوير للمناظر.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "اليوم الأول 09:00",
+              "titleAr": "جولة في أبها وبحيرة السد",
+              "titleEn": "Abha City & Dam Lake Tour",
+              "placeName": "Abha Dam Lake",
+              "descriptionAr": "زيارة بحيرة سد أبها أو الجبل الأخضر مع التصوير والاستمتاع بالأجواء الباردة، ويمكن حجز جولة عبر VisitSaudi.",
+              "descriptionEn": "Visit Abha Dam Lake or Green Mountain, enjoy cool weather and views; you can book a tour via VisitSaudi.",
+              "mapUrl": "https://maps.google.com/?q=Abha+Dam+Lake",
+              "bookingUrl": "https://book.visitsaudi.com/",
+              "imageUrl": "https://your-cdn.com/weekend-sa/abha/dam-lake.jpg"
             },
             {
-              "time": "17:00 - 19:00",
-              "title": "قهوة وعشاء بسيط",
-              "placeName": "كوفي أو مطعم مطل",
-              "description": "قهوة دافية في الجو البارد وعشاء بسيط.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "اليوم الأول 15:00",
+              "titleAr": "هايكنغ في غابات أبها/السودة مع تجربة منسّقة",
+              "titleEn": "Forest Hiking in Abha/Soudah",
+              "placeName": "Abha Forests / Al Soudah",
+              "descriptionAr": "حجز تجربة هايكنغ منظّمة عبر VisitSaudi تشمل مسار مشي وفطور أو قهوة في الجبل.",
+              "descriptionEn": "Book an organized hiking experience via VisitSaudi including a trail and breakfast or coffee in the mountains.",
+              "mapUrl": "https://maps.google.com/?q=Al+Soudah+Abha",
+              "bookingUrl": "https://book.visitsaudi.com/product/85842f8f-bc80-40d7-9167-8552c84a830d",
+              "imageUrl": "https://your-cdn.com/weekend-sa/abha/forest-hike.jpg"
+            },
+            {
+              "time": "اليوم الثاني 09:00",
+              "titleAr": "زيارة قرية رجال ألمع التراثية",
+              "titleEn": "Visit Rijal Almaa Heritage Village",
+              "placeName": "Rijal Almaa Village",
+              "descriptionAr": "الانطلاق مبكرًا إلى رجال ألمع، والتجول بين البيوت الحجرية الملونة والمتاحف، ويمكن حجز جولة مع مرشد.",
+              "descriptionEn": "Drive early to Rijal Almaa, explore the colorful stone houses and museums, and optionally book a guided tour.",
+              "mapUrl": "https://maps.google.com/?q=Rijal+Almaa",
+              "bookingUrl": "https://book.visitsaudi.com/product/fadaeed8-427f-4164-8545-4aeec8fd2434",
+              "imageUrl": "https://your-cdn.com/weekend-sa/abha/rijal-almaa.jpg"
+            }
+          ]
+        },
+        {
+          "id": "abha_afterwork_light",
+          "titleAr": "خطة خفيفة بعد الدوام في أبها",
+          "titleEn": "Light After-Work Plan in Abha",
+          "type": "weekday",
+          "dayPattern": "after-work",
+          "audience": ["family", "solo", "friends"],
+          "budget": "low",
+          "durationHours": 2.5,
+          "tags": ["View", "Coffee"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/abha/afterwork.jpg",
+          "steps": [
+            {
+              "time": "17:30",
+              "titleAr": "كوفي مطل على المدينة",
+              "titleEn": "View Café Overlooking the City",
+              "placeName": "كوفي على أحد المطلات",
+              "descriptionAr": "جلسة قهوة على مطل يطل على أبها للاستمتاع بالهواء البارد والمنظر.",
+              "descriptionEn": "Have coffee at a viewpoint café overlooking Abha to enjoy the cool breeze.",
+              "mapUrl": "https://maps.google.com/?q=view+cafe+Abha",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/abha/view-cafe.jpg"
+            },
+            {
+              "time": "18:45",
+              "titleAr": "مشي خفيف في حديقة قريبة",
+              "titleEn": "Light Walk in a Nearby Park",
+              "placeName": "حديقة في أبها",
+              "descriptionAr": "تمشية قصيرة في حديقة قريبة من المنزل أو المطعم قبل الرجوع.",
+              "descriptionEn": "Take a short walk in a nearby park before heading back home.",
+              "mapUrl": "https://maps.google.com/?q=Abha+park",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/abha/park-walk.jpg"
             }
           ]
         }
@@ -340,32 +387,77 @@
     {
       "id": "taif",
       "name": "الطائف",
+      "nameEn": "Taif",
       "plans": [
         {
-          "id": "taif_weekend_rose",
-          "title": "ويكند في أجواء الطائف",
+          "id": "taif_hada_gardens",
+          "titleAr": "ويكند الهدا وحدائق الطائف",
+          "titleEn": "Al Hada & Taif Gardens Weekend",
           "type": "weekend",
-          "dayPattern": "thu-sat",
+          "dayPattern": "fri-sat",
           "audience": ["family", "friends"],
           "budget": "medium",
-          "durationHours": 6,
-          "tags": ["طبيعة", "هواء بارد"],
+          "durationHours": 12,
+          "tags": ["Mountains", "Cable Car", "Parks"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/taif/hada-main.jpg",
           "steps": [
             {
-              "time": "16:00 - 18:00",
-              "title": "جلسة في منتزه أو حديقة",
-              "placeName": "منتزه أو حديقة عامة",
-              "description": "جلسة مع الأهل أو الأصحاب والجو البارد.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "09:00",
+              "titleAr": "الصعود عبر طريق الهدا وتجربة التلفريك",
+              "titleEn": "Drive Al Hada Road & Cable Car Ride",
+              "placeName": "Al Hada Road & Cable Car",
+              "descriptionAr": "الصعود المبكر عبر طريق الهدا الجبلي والتوقف عند المطلات العالية ثم تجربة التلفريك إلى قرية الكر السياحية.",
+              "descriptionEn": "Drive the Al Hada mountain road early, stop at viewpoints, then ride the cable car down to Al Kar tourist village.",
+              "mapUrl": "https://maps.google.com/?q=Al+Hada+Cable+Car",
+              "bookingUrl": "https://richexperience.sa/en/Brpynny",
+              "imageUrl": "https://your-cdn.com/weekend-sa/taif/cablecar.jpg"
             },
             {
-              "time": "18:00 - 20:00",
-              "title": "عشاء في مطعم محلي",
-              "placeName": "مطعم شعبي أو عائلي",
-              "description": "تجربة أكل محلي أو عشاء عائلي بسيط.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "15:30",
+              "titleAr": "زيارة حدائق وأسواق الطائف",
+              "titleEn": "Visit Taif Parks & Markets",
+              "placeName": "Taif City",
+              "descriptionAr": "زيارة حديقة الردف أو غيرها من حدائق الطائف، ثم جولة في السوق الشعبي وشراء منتجات الورد الطائفي والعسل.",
+              "descriptionEn": "Visit Al Ruddaf Park or other parks in Taif, then explore the local market to buy Taif rose products and honey.",
+              "mapUrl": "https://maps.google.com/?q=Al+Ruddaf+Park+Taif",
+              "bookingUrl": "https://book.visitsaudi.com/",
+              "imageUrl": "https://your-cdn.com/weekend-sa/taif/park.jpg"
+            }
+          ]
+        },
+        {
+          "id": "taif_afterwork_light",
+          "titleAr": "خطة خفيفة بعد الدوام في الطائف",
+          "titleEn": "Light After-Work Plan in Taif",
+          "type": "weekday",
+          "dayPattern": "after-work",
+          "audience": ["family", "solo", "friends"],
+          "budget": "low",
+          "durationHours": 2.5,
+          "tags": ["Cool Weather", "Walk"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/taif/afterwork.jpg",
+          "steps": [
+            {
+              "time": "17:30",
+              "titleAr": "كوفي بسيط في الهواء الطلق",
+              "titleEn": "Simple Outdoor Café",
+              "placeName": "كوفي في الطائف",
+              "descriptionAr": "جلسة في كوفي بسيط مع جلسات خارجية للاستمتاع بالجو العليل.",
+              "descriptionEn": "Sit at a simple outdoor café to enjoy Taif’s mild weather.",
+              "mapUrl": "https://maps.google.com/?q=Taif+cafe",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/taif/cafe-outdoor.jpg"
+            },
+            {
+              "time": "18:45",
+              "titleAr": "تمشية في حديقة قريبة",
+              "titleEn": "Walk in a Nearby Park",
+              "placeName": "حديقة في الطائف",
+              "descriptionAr": "مشي 20–30 دقيقة في حديقة قريبة مثل حديقة الردف أو غيرها.",
+              "descriptionEn": "Walk 20–30 minutes in a nearby park such as Al Ruddaf or similar.",
+              "mapUrl": "https://maps.google.com/?q=park+Taif",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/taif/park-walk.jpg"
             }
           ]
         }
@@ -374,32 +466,77 @@
     {
       "id": "alula",
       "name": "العلا",
+      "nameEn": "AlUla",
       "plans": [
         {
-          "id": "alula_weekend_explore",
-          "title": "استكشاف العلا في يوم واحد",
+          "id": "alula_heritage_hegra_weekend",
+          "titleAr": "ويكند العلا التراثي والحِجر",
+          "titleEn": "AlUla Heritage & Hegra Weekend",
           "type": "weekend",
-          "dayPattern": "thu-sat",
-          "audience": ["friends", "family"],
+          "dayPattern": "fri-sat",
+          "audience": ["tourists", "friends", "couples"],
           "budget": "high",
-          "durationHours": 8,
-          "tags": ["سياحة", "استكشاف"],
+          "durationHours": 28,
+          "tags": ["AlUla", "Hegra", "UNESCO", "Desert"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/alula/old-town-main.jpg",
           "steps": [
             {
-              "time": "10:00 - 14:00",
-              "title": "جولة في المعالم السياحية",
-              "placeName": "المناطق التاريخية أو التجارب السياحية",
-              "description": "استكشاف أبرز المعالم مع جولة محجوزة مسبقًا.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": "https://example.com/booking/alula-tour"
+              "time": "اليوم الأول 16:00",
+              "titleAr": "جولة في البلدة القديمة في العلا",
+              "titleEn": "Stroll in AlUla Old Town",
+              "placeName": "AlUla Old Town",
+              "descriptionAr": "تمشية بين الأزقة الحجرية والمطاعم والمقاهي في البلدة القديمة مع وقت كافٍ للتصوير.",
+              "descriptionEn": "Stroll through the stone alleys, restaurants and cafés of AlUla Old Town, with plenty of time for photos.",
+              "mapUrl": "https://maps.google.com/?q=AlUla+Old+Town",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/alula/old-town.jpg"
             },
             {
-              "time": "16:00 - 18:00",
-              "title": "جلسة غروب",
-              "placeName": "مكان مطل",
-              "description": "جلسة هادئة لمشاهدة الغروب والتصوير.",
-              "mapUrl": "https://maps.google.com",
-              "bookingUrl": null
+              "time": "اليوم الثاني 09:00",
+              "titleAr": "جولة رسمية في موقع الحِجر (مدائن صالح)",
+              "titleEn": "Official Guided Tour of Hegra (Madain Salih)",
+              "placeName": "Hegra Archaeological Site",
+              "descriptionAr": "حجز جولة رسمية عبر Experience AlUla لاستكشاف قصر الفريد والمقابر النبطية.",
+              "descriptionEn": "Book an official tour via Experience AlUla to explore Qasr al-Farid and Nabataean tombs.",
+              "mapUrl": "https://maps.google.com/?q=Hegra+AlUla",
+              "bookingUrl": "https://www.experiencealula.com/en/things-to-do/experiences/hegra-tour",
+              "imageUrl": "https://your-cdn.com/weekend-sa/alula/hegra.jpg"
+            }
+          ]
+        },
+        {
+          "id": "alula_afterwork_light",
+          "titleAr": "خطة مسائية خفيفة في العلا",
+          "titleEn": "Light Evening Plan in AlUla",
+          "type": "weekday",
+          "dayPattern": "after-work",
+          "audience": ["tourists", "couples"],
+          "budget": "medium",
+          "durationHours": 3,
+          "tags": ["Oasis", "Cafés"],
+          "imageUrl": "https://your-cdn.com/weekend-sa/alula/afterwork.jpg",
+          "steps": [
+            {
+              "time": "17:30",
+              "titleAr": "جلسة في كوفي داخل الواحة",
+              "titleEn": "Café in the Oasis",
+              "placeName": "واحة العلا",
+              "descriptionAr": "جلسة في كوفي داخل واحة العلا بين النخيل للراحة بعد يوم طويل من الجولات.",
+              "descriptionEn": "Relax at a café in AlUla oasis among palm trees after a long day of touring.",
+              "mapUrl": "https://maps.google.com/?q=oasis+cafe+AlUla",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/alula/oasis-cafe.jpg"
+            },
+            {
+              "time": "18:45",
+              "titleAr": "مشي قصير في البلدة القديمة ليلًا",
+              "titleEn": "Short Night Walk in Old Town",
+              "placeName": "AlUla Old Town (Night)",
+              "descriptionAr": "مشي هادئ في البلدة القديمة ليلًا مع الإضاءة الدافئة والمطاعم المفتوحة.",
+              "descriptionEn": "Enjoy a calm night walk in Old Town with warm lighting and open restaurants.",
+              "mapUrl": "https://maps.google.com/?q=AlUla+Old+Town",
+              "bookingUrl": "",
+              "imageUrl": "https://your-cdn.com/weekend-sa/alula/old-town-night.jpg"
             }
           ]
         }
