@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "promoId": "welcome_zhab_launch_001",
+  "titleAr": "أهلاً في زِهاب 👋",
+  "titleEn": "Welcome to Zhab 👋",
+  "bodyAr": "اكتشف مجموعات الهايكينق والبادل والكشتات، وتابع أحدث الخطط والفعاليات في مدينتك.",
+  "bodyEn": "Discover hiking, padel and camping groups, and follow the latest plans and events in your city.",
+  "imageUrl": "https://example.com/zhab_promo.png",
+  "ctaTextAr": "شوف المجموعات الآن",
+  "ctaTextEn": "Browse groups now",
+  "ctaUrl": "zhab://open-groups",
+  "showOncePerId": true
+}
